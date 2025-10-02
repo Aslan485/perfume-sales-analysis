@@ -97,6 +97,7 @@ def get_price_segment(price):
     if price <= 25: return 'Budget'
     elif price <= 75: return 'Mid-Range'
     # Customize thresholds as needed
+
 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
