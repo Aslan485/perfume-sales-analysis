@@ -1,3 +1,4 @@
+text
 # 🛍️ E-commerce Perfume Sales Analysis
 
 Comprehensive data analysis of mens perfume sales from eBay marketplace. This project demonstrates advanced data analysis techniques, business intelligence reporting, and actionable insights for e-commerce optimization.
@@ -23,84 +24,68 @@ Comprehensive data analysis of mens perfume sales from eBay marketplace. This pr
 
 ### Installation
 1. Clone the repository
-```bash
 git clone https://github.com/Aslan485/perfume-sales-analysis.git
 
-Install dependencies
+text
 
-bash
+2. Install dependencies
 pip install -r requirements.txt
 
-Run the analysis
+text
 
-bash
+3. Run the analysis
 python perfume_analysis.py
 
-📈 Analysis Components
-Key Performance Indicators
-Total Sales Volume: 761,669 units
-
-Total Revenue: $25.8M+
-
-Average Price: $46.48
-
-Brand Diversity: 246 unique brands
-
-Business Insights
-Price Segments: Mid-Range ($21-50) dominates with 70% of sales
-
-Product Categories: Eau de Toilette represents 73.4% market share
-
-Inventory Efficiency: 98%+ efficiency across top products
-
-Sales Correlation: Negative correlation (-0.085) between price and volume
-
-Top Performing Brands
-Calvin Klein: 97,572 units sold
-
-Versace: 96,519 units sold
-
-Davidoff: 54,944 units sold
-
-Azzaro: 38,305 units sold
-
-Armaf: 24,282 units sold
-
-🎯 Business Use Cases
-This analysis can be used for:
-
-Pricing Strategy Optimization
-
-Inventory Management Decisions
-
-Brand Performance Evaluation
-
-Market Trend Identification
-
-Sales Forecasting
-
-Product Portfolio Analysis
-
-👨‍💻 Author
-Aslan Akhundov - Data Analyst
-
-GitHub: Aslan485
-
-Email: axundovaslan44@gmail.com
-
-Skills: Python, Pandas, SQL, Data Analysis, Business Intelligence
-
-📁 Project Structure
 text
-perfume-sales-analysis/
-├── perfume_analysis.py     # Main analysis code
-├── requirements.txt        # Python dependencies
-└── README.md              # Project documentation
-🔧 Customization
-Adding New Analysis
-Modify the analysis functions in perfume_analysis.py:
 
-python
+## 📈 Analysis Components
+
+### Key Performance Indicators
+- Total Sales Volume: 761,669 units
+- Total Revenue: $25.8M+
+- Average Price: $46.48
+- Brand Diversity: 246 unique brands
+
+### Business Insights
+- **Price Segments**: Mid-Range ($21-50) dominates with 70% of sales
+- **Product Categories**: Eau de Toilette represents 73.4% market share
+- **Inventory Efficiency**: 98%+ efficiency across top products
+- **Sales Correlation**: Negative correlation (-0.085) between price and volume
+
+### Top Performing Brands
+1. **Calvin Klein**: 97,572 units sold
+2. **Versace**: 96,519 units sold  
+3. **Davidoff**: 54,944 units sold
+4. **Azzaro**: 38,305 units sold
+5. **Armaf**: 24,282 units sold
+
+## 🎯 Business Use Cases
+This analysis can be used for:
+- **Pricing Strategy Optimization**
+- **Inventory Management Decisions**
+- **Brand Performance Evaluation**
+- **Market Trend Identification**
+- **Sales Forecasting**
+- **Product Portfolio Analysis**
+
+## 👨‍💻 Author
+**Aslan Akhundov** - Data Analyst
+- **GitHub**: [Aslan485](https://github.com/Aslan485)
+- **Email**: axundovaslan44@gmail.com
+- **Skills**: Python, Pandas, SQL, Data Analysis, Business Intelligence
+
+## 📁 Project Structure
+perfume-sales-analysis/
+├── perfume_analysis.py # Main analysis code
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+text
+
+## 🔧 Customization
+### Adding New Analysis
+Modify the analysis functions in `perfume_analysis.py`:
+```python
 def analyze_new_metric(df):
     # Add your custom analysis here
     return new_insights
